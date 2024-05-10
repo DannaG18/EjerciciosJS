@@ -118,3 +118,15 @@ function sumarRangos (inicial, final){
     }
     return suma
 }
+
+//EJERCICIO 8
+
+const numeroDeAes = (word) => {
+    let counter = 0;
+    for (let i = 0; i < word.toLowerCase().length; ++i) {
+      if (word[i] === 'a') {
+        ++counter;
+      }
+    }
+    return counter;
+  }
