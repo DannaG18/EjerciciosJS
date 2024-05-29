@@ -1,5 +1,5 @@
 do{
-    options = prompt ("1. Valid Password\n2. Calculate your incomes\n3. Calculate your IMC\n4. Print Arrangement\n5. Count Range\n6. Likes\n7.  Sum ranges\n8. Number of a's\n9. Sum Arrangement\n10. Multiply Arrangement\n11. Remove Ceros\n12. Transcribe\n13. ")
+    options = prompt ("1. Valid Password\n2. Calculate your incomes\n3. Calculate your IMC\n4. Print Arrangement\n5. Count Range\n6. Likes\n7.  Sum ranges\n8. Number of a's\n9. Sum Arrangement\n10. Multiply Arrangement\n11. Remove Ceros\n12. Transcribe\n13. Max\n14. Pares\n15. Password\n16. Posiciones\n17. ")
     switch(options) {
         case ("1"):
             password = prompt ("Enter your password")
